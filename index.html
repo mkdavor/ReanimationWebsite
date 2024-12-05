@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hands On Heart</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            color: #333;
+        }
+        header {
+            background: #0066cc;
+            color: white;
+            padding: 20px 10px;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        header .logo {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+        header .logo img {
+            width: 50px;
+            height: 50px;
+            margin-right: 15px;
+            border: 2px solid black;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        }
+        header h1 {
+            font-size: 1.8rem;
+            font-weight: bold;
+            margin: 0;
+            color: white;
+        }
+        header nav {
+            margin-top: 15px;
+        }
+        header nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+        }
+        header nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-size: 1.1rem;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+        section {
+            padding: 50px 20px;
+            text-align: center;
+        }
+        .hero {
+            background: #f8f9fa;
+            padding: 80px 20px;
+            text-align: center;
+        }
+        .hero h1 {
+            font-size: 2.8rem;
+            font-weight: bold;
+            margin-bottom: 20px;
+            color: #333;
+        }
+        .hero p {
+            max-width: 700px;
+            margin: 0 auto;
+            line-height: 1.8;
+            font-size: 1.2rem;
+            color: #555;
+        }
+        .download-links {
+            margin-top: 40px;
+        }
+        .download-links img {
+            width: auto;
+            height: 60px;
+            margin: 10px;
+            border: none;
+            display: inline-block;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+        }
+        .services, .about, .support {
+            background: #f9f9f9;
+            margin: 20px 0;
+        }
+        .about h2, .support h2 {
+            text-align: center;
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+        .about p, .support p {
+            max-width: 800px;
+            margin: 0 auto;
+            line-height: 1.8;
+            font-size: 1.1rem;
+            text-align: center;
+            padding: 20px;
+        }
+        .support a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+        #disclaimer {
+            background: #f4f4f4;
+            padding: 20px;
+            text-align: center;
+            border-top: 1px solid #ddd;
+        }
+        #disclaimer p {
+            max-width: 800px;
+            margin: 0 auto;
+            line-height: 1.8;
+            font-size: 1rem;
+            color: #666;
+        }
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Hands On Heart Logo">
+            <h1>Hands On Heart</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#support">Support</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <h1>Welcome to Hands On Heart</h1>
+        <p>
+            Your trusted mobile app for connecting hearts and helping hands. Download now to learn how you can make a life-saving difference in critical moments.
+        </p>
+        <div class="download-links">
+            <a href="#playstore">
+                <img src="playstore.png" alt="Download on Google Play">
+            </a> <a href="#appstore">
+                <img src="appstore.svg" alt="Download on App Store">
+            </a>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2>About Hands On Heart</h2>
+        <p>
+            <i>Hands On Heart</i> is a mobile app designed to educate and empower individuals to act during life-threatening emergencies. Our mission is to provide easy-to-follow guidance on reanimation and CPR techniques, helping you make a difference when it matters most.
+            <br><br>
+            Through this app, we aim to build confidence and competence, ensuring that more people are equipped to take lifesaving actions. Whether you’re a complete beginner or looking to refresh your skills, Hands On Heart is your trusted resource for learning how to save lives.
+        </p>
+    </section>
+
+    <section id="support" class="support">
+        <h2>Support</h2>
+        <p>
+            At <i>Hands On Heart</i>, we are dedicated to supporting you in this vital journey of learning and preparedness. If you have any questions about using the app, need assistance, or would like to share feedback, our team is here to help.
+            <br><br>
+            We understand the importance of clarity and reliability, especially when dealing with life-saving knowledge. Please reach out to us with any concerns or inquiries, and we’ll do our best to assist you promptly.
+            <br><br>
+            You can contact us at <a href="mailto:support@hands-on.app">support@hands-on.app</a>. Your commitment to learning and helping others is invaluable, and we’re honored to support you every step of the way.
+        </p>
+    </section>
+
+    <section id="disclaimer">
+        <p>
+            <strong>Disclaimer:</strong> This app is for educational purposes only. While <i>Hands On Heart</i> aims to provide accurate and helpful information about reanimation and CPR techniques, we cannot guarantee specific outcomes. The app is not a substitute for professional medical training or advice. 
+            <br><br>
+            <strong>We are not responsible</strong> for any misuse of the app or unfortunate events arising from its use. Always seek certified training and professional guidance when dealing with medical emergencies.
+        </p>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 Hands On Heart. All rights reserved.</p>
+    </footer>
+</body>
+</html>
